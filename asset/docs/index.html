@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://kit.fontawesome.com/8007fe5938.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="../../OwlCarousel/OwlCarousel2/dist/assets/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="../../OwlCarousel/OwlCarousel2/dist/assets/owl.theme.default.min.css">
+	<script src="../../OwlCarousel/OwlCarousel2/docs/assets/vendors/jquery.min.js"></script>
+	<script src="../../OwlCarousel/OwlCarousel2/docs/assets/owlcarousel/owl.carousel.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<title></title>
+</head>
+<body>
+	<div>
+		<section>
+			<div class="row mr-0">
+				<div class="col-lg-4 col-sm-12 open-hrs">
+					<p class="text-white"><i class="fas fa-clock mr-2"></i> Open Hours: Mon - Sat 9.00 - 18.00</p>
+				</div>
+				<div class="col-lg-8 col-sm-12 mail-phn-sm">
+					<div class="text-lg-right text-md-left text-sm-left">
+						<div class="d-inline-block">
+							<a href="mailto:info@rajkotlasik.com" class="text-white mail"><i class="far fa-envelope mr-2"></i> info@rajkotlasik.com</a>
+						</div>
+						<div class="d-inline-block">
+							<a href="tel:+91-8980 901 901" class="text-white phone"><i class="fas fa-phone-alt mr-2"></i> +91-8980 901 901</a>
+						</div>
+						<div class="d-inline-block">
+							<a href="appointment.html" class="text-white phone" data-toggle="modal" data-target="#staticBackdrop"><i class="fab fa-wpforms mr-2"></i></i> Book Appointment</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<!-- Modal -->
+				<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="row mr-0">
+								<div class="col-lg-4 col-md-4 col-sm-12 pr-0">
+									<img loading="lazy" src="../img/eye-doc.jpg" height="100%" width="100%" style="object-fit: cover;">
+								</div>
+								<div class="col-lg-8 col-md-8 col-sm-12 p-0">
+									<button class="close btn p-1 pr-2 h4" data-dismiss="modal" aria-hidden="true">&times;</button>
+									<div class="appo-form">
+										<form>
+											<div class="mb-4">
+												<label class="font-weight-bold">Time</label><label class="text-danger">*</label>
+												<div>
+													<input type="time" name="" class="form-control" placeholder="mm/dd/yyyy" required>
+												</div>
+											</div>
+											<div class="mb-4">
+												<label class="font-weight-bold">Date</label><label class="text-danger">*</label>
+												<div>
+													<input type="Date" name="" class="form-control" placeholder="mm/dd/yyyy" required>
+												</div>
+											</div>
+											<div class="mb-4">
+												<label class="font-weight-bold">Name</label><label class="text-danger">*</label>
+												<div>
+													<input type="text" name="" class="form-control" placeholder="Enter Name" required>
+												</div>
+											</div>
+											<div class="mb-4">
+												<label class="font-weight-bold">Surname</label><label class="text-danger">*</label>
+												<div>
+													<input type="text" name="" class="form-control" placeholder="Enter Surname" required>
+												</div>
+											</div>
+											<div class="mb-4">
+												<label class="font-weight-bold">Gender</label><label class="text-danger">*</label>
+												<div>
+													<span>Male </span><input type="radio" name="radio3" class="mr-3" required>
+													<span>Female </span><input type="radio" name="radio3" class="mr-3" required>
+													<span>Other </span><input type="radio" name="radio3" class="mr-3" required>
+												</div>
+											</div>
+											<div class="mb-4">
+												<label class="font-weight-bold">Phone Number</label><label class="text-danger">*</label>
+												<div>
+													<input type="text" name="" class="form-control" pattern="[0-9]{10}" placeholder="Enter Mobile Number" required>
+												</div>
+											</div>
+											<div class="mb-4">
+												<div>
+													<input type="submit" class="btn" required>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="sticky-top bg-white">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<a class="navbar-brand" href="index.html"><img loading="lazy" src="../img/logo.png" class="img-fluid"></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse col-lg-9" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item mr-3 active">
+								<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item mr-3 dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+									About
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="about.html">About Us</a>
+									<a class="dropdown-item" href="facility.html">Facility</a>
+									<a class="dropdown-item" href="ourteam.html">Our Team</a>
+								</div>
+							</li>
+							<li class="nav-item mr-3">
+								<a class="nav-link" href="service.html">Service</a>
+							</li>
+							<li class="nav-item mr-3 dropdown">
+								<a class="nav-link dropdown-toggle" href="lasik.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+									Lasik
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="lasik.html">Lasik Surgery</a>
+									<a class="dropdown-item" href="lasik.html">Why Get Your Glasses Remover Here</a>
+									<a class="dropdown-item" href="lasik.html">No Touch Lasser Treatment</a>
+									<a class="dropdown-item" href="lasik.html">Lasik FAQs</a>
+									<a class="dropdown-item" href="lasik.html">Topography Guided Lasik</a>
+								</div>
+							</li>
+							<li class="nav-item mr-3 dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+									Cataract
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="cataract.html">What Is Cataract ?</a>
+									<a class="dropdown-item" href="cataract.html">Types Of Cataract</a>
+									<a class="dropdown-item" href="cataract.html">When To Operate Cataract ?</a>
+									<a class="dropdown-item" href="cataract.html">What TO Except On Cataract Surgery Day ?</a>
+									<a class="dropdown-item" href="cataract.html">How To Check Cataract</a>
+									<a class="dropdown-item" href="cataract.html">Treatment Of Cataract</a>
+								</div>
+							</li>
+							<li class="nav-item mr-3 dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+									Lenses
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="Lense.html">Choices Of IOLs</a>
+									<a class="dropdown-item" href="Lense.html">Monofocal Lenses</a>
+									<a class="dropdown-item" href="Lense.html">EDOF Intraocular Lense</a>
+									<a class="dropdown-item" href="Lense.html">TRONIC Intraocular Lense</a>
+									<a class="dropdown-item" href="Lense.html">TRIFOCAL Intraocular Lense</a>
+								</div>
+							</li>
+							<li class="nav-item mr-3">
+								<a class="nav-link" href="icl.html">ICL</a>
+							</li>
+							<li class="nav-item mr-3">
+								<a class="nav-link" href="testimonials.html">Testimonials</a>
+							</li>
+							<li class="nav-item mr-3">
+								<a class="nav-link" href="contactus.html">Contact Us</a>
+							</li>
+							<li class="nav-item mr-3 dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+									New Features
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="gallery.html">Gallery</a>
+									<a class="dropdown-item" href="faqs.html">FAQs</a>
+									<a class="dropdown-item" href="specialization.html">Specialization</a>
+									<a class="dropdown-item" href="blog.html">Blog</a>
+									<a class="dropdown-item" href="appointment.html">Appointment</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<hr class="m-0">
+			</section>
+			<section>
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img loading="lazy" src="../img/img.jpg" class="d-block w-100" alt="...">
+							<div class="carousel-abs wow animate__animated animate__fadeInLeftBig">
+								<div>
+									<h1 class="we-bring">We Bring</h1>
+									<h2 class="for-your-eyes">For Your <span>Eyes</span> Only</h2>
+									<h6 class="text-white carousel-abs-text">Placing you and your safety at the heart of everyone</h6>
+									<div class="row mr-0">
+										<div class="row mr-0 eye-examination">
+											<div>
+												<img loading="lazy" src="../img/carousel-img.png" class="img-fluid">
+											</div>
+											<div>
+												<p>Eye<br>Examination</p>
+											</div>
+										</div>
+										<div class="row mr-0 lense-fitting">
+											<div>
+												<img src="../img/carousel-img2.png" class="img-fluid">
+											</div>
+											<div>
+												<p>Lense<br>Fitting</p>
+											</div>
+										</div>
+									</div>
+									<div>
+										<button class="btn btn1">More Detail</button>
+										<button class="btn btn2">Appointment</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img loading="lazy" src="../img/img4.jpg" class="d-block w-100" alt="...">
+							<div class="carousel-abs2 wow animate__animated animate__fadeInRightBig">
+								<div>
+									<h2><p class="more-real">More Real</p></h2>
+									<h2><p class="vision">Vision For <span>Better</span> Life</p></h2>
+									<h6><p class="text-white carousel-abs-text2">Because Safety of Visual Health Is Our Primary Concern,<br>Operates Unser Strictest Clinical Governance</p></h6>
+									<div>
+										<div class="row mr-0 video-div">
+											<a href="#"><div class="play-icon">
+												<i class="fas fa-play"></i>
+											</div></a>
+											<div class="video-text">
+												<p class="watch-video">Watch Video</p>
+												<p class="m-0 text-white">Health Is Our Primary Concern</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</button>
+				</div>
+			</section>
+			<section>
+				<div class="img-div">
+					<div class="row mr-0">
+						<div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center wow animate__animated animate__flipInY">
+							<div class="rounded-rel">
+								<img src="../img/nabh.png" class="img-fluid">
+								<div class="rounded">
+
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 nabh-accr">
+							<div>
+								<div class="text-left">
+									<h2><p class="care2">We Are <span style="color: var(--color1);">NABH</span> Accrediated.</span></p></h2>
+									<div>
+										<hr class="care-hr2">
+									</div>
+								</div>
+								<div class="heading-abs">
+									<p class="boot-vision2">NABH</p>
+								</div>
+								<div>
+									<p class="heading-text">National Accreditation Board for Hospitals & Healthcare Providers (NABH) is a constituent board of Quality Council of India (QCI), set up to establish and operate accreditation programme for healthcare organizations.</p>
+								</div>
+							</div>
+							<div>
+								<h3><p class="eye-test2">What Is NABH Accrediation ?</p></h3>
+								<div>
+									<ul>
+										<li class="wow animate__animated animate__bounceInRight animate__delay-1s">Commitment to create a culture of quality, patient safety, efficiency and accountability towards patient care.</li>
+										<li class="wow animate__animated animate__bounceInRight animate__delay-1s">Establishment of protocols and policies as per National/International Standards for patient care, medication management, consent process, patient safety, clinical outcomes, medical records, infection control and staffing.</li>
+										<li class="wow animate__animated animate__bounceInRight animate__delay-1s">Patients are treated with respect, dignity and courtesy at all times.</li>
+										<li class="wow animate__animated animate__bounceInRight animate__delay-1s">Patients are involved in care planning and decision making.</li>
+										<li class="wow animate__animated animate__bounceInRight animate__delay-2s">Patients are treated by qualified and trained staff.</li>
+										<li class="wow animate__animated animate__bounceInRight animate__delay-2s">Feedback from patients is sought and complaints (if any) are addressed.</li>
+										<li class="wow animate__animated animate__bounceInRight animate__delay-2s">Transparency in billing and availability of tariff list.</li>
+										<li class="wow animate__animated animate__bounceInRight animate__delay-2s">Continuous monitoring of its services for improvement.</li>
+										<li class="wow animate__animated animate__bounceInRight animate__delay-2s">Commitment to prevent adverse events that may occur.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="fixed-div">
+					<div>
+						<a href="#" class="fas fa-calendar-check"></a>
+					</div>
+					<div class="mt-3">
+						<a href="#" class="fab fa-whatsapp"></a>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="service-expert">
+					<div class="heading">
+						<div class="text-center">
+							<h2 class="care">Service Experts Eye Special</h2>
+							<hr class="care-hr">
+						</div>
+						<div class="heading-abs">
+							<p class="boot-vision">Our Experts</p>
+						</div>
+						<div class="text-center">
+							<p class="heading-text">At Optrica we value our patients’ overall health and encourage our patients to <br> visit their primary care doctor annually.</p>
+						</div>
+					</div>
+					<div class="container wow animate__animated animate__backInRight">
+						<div class="ipad2">
+							<div class="row mr-0 ipad3">
+								<div class="col-lg-6 col-md-6 col-sm-12 pr-0">
+									<iframe width="100%" height="100%" src="https://www.youtube.com/embed/TZgcAfFNHqc?autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-12 adult-service">
+									<h4 class="adult-service-p">Eye Care Services For Adults And Children's <span>Clinic</span></h4>
+									<p class="adult-service-text">You are nothing witout your set eyes care set ina consectr elit, do eiusmod tempor incididunt or ut labore areas disee dolore aliqua. Ut <span style="color: var(--color1)">enim ad et minim</span> veniam, and quis nation produr conducted right in our clinic.</p>
+									<p class="adult-p"><i class="fas fa-check mr-1"></i> Drawing up an individual atment program for patient.</p>
+									<p class="adult-p"><i class="fas fa-check mr-1"></i> Drawing up an individual atment program for patient.</p>
+									<p class="adult-p"><i class="fas fa-check mr-1"></i> Drawing up an individual atment program for patient.</p>
+									<a href="appointment.html" class="btn appointment">Book Appointment</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="card-div">
+					<div class="heading">
+						<div class="text-center">
+							<h2 class="care">Eye Health And Vision Care</h2>
+							<hr class="care-hr">
+						</div>
+						<div class="heading-abs">
+							<p class="boot-vision">Boot Vision</p>
+						</div>
+						<div class="text-center">
+							<p class="heading-text">Placing you and your safety at the heart of everything we do With having our<br> entire team of optometrists</p>
+						</div>
+					</div>
+					<div class="container card-container">
+						<div class="row mr-0">
+							<div class="owl-carousel owl-theme">
+								<div class="item bg-white wow animate__animated animate__fadeInLeft">
+									<div class="card">
+										<img loading="lazy" src="../img/catarcat.png" class="card-img-top" alt="...">
+										<div class="card-body text-center">
+											<h5 class="card-title">Card title</h5>
+											<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+											<a href="#" class="card-link">Read More</a>
+										</div>
+									</div>
+								</div>
+								<div class="item bg-white wow animate__animated animate__fadeInDown">
+									<div class="card">
+										<img loading="lazy" src="../img/retina.png" class="card-img-top" alt="...">
+										<div class="card-body text-center">
+											<h5 class="card-title">Card title</h5>
+											<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+											<a href="#" class="card-link">Read More</a>
+										</div>
+									</div>
+								</div>
+								<div class="item bg-white wow animate__animated animate__fadeInRight">
+									<div class="card">
+										<img loading="lazy" src="../img/lenses.png" class="card-img-top" alt="...">
+										<div class="card-body text-center">
+											<h5 class="card-title">Card title</h5>
+											<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+											<a href="#" class="card-link">Read More</a>
+										</div>
+									</div>
+								</div>
+								<div class="item bg-white">
+									<div class="card">
+										<img loading="lazy" src="../img/catarcat.png" class="card-img-top" alt="...">
+										<div class="card-body text-center">
+											<h5 class="card-title">Card title</h5>
+											<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+											<a href="#" class="card-link">Read More</a>
+										</div>
+									</div>
+								</div>
+								<div class="item bg-white">
+									<div class="card">
+										<img loading="lazy" src="../img/retina.png" class="card-img-top" alt="...">
+										<div class="card-body text-center">
+											<h5 class="card-title">Card title</h5>
+											<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+											<a href="#" class="card-link">Read More</a>
+										</div>
+									</div>
+								</div>
+								<div class="item bg-white">
+									<div class="card">
+										<img loading="lazy" src="../img/lenses.png" class="card-img-top" alt="...">
+										<div class="card-body text-center">
+											<h5 class="card-title">Card title</h5>
+											<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+											<a href="#" class="card-link">Read More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="text-center">
+						<h3 class="doctors">Get The Right Optrometrist Care Book With Your Doctors!</h3>
+						<h5 class="welcome">Welcom To <span>Vision</span> Eye Care</h5>
+						<a href="appointment.html" class="btn book-btn">Book Appointment</a>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="doctor-div wow animate__animated animate__fadeIn">
+					<div class="row mr-0">
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<img loading="lazy" src="../img/ajay.jpg" class="img-fluid">
+						</div>
+						<div class="col-lg-7 col-md-8 col-sm-12 text-left doctor-text">
+							<div class="heading2">
+								<div class="text-left">
+									<h2 class="care2">Everybody Deserves To See The World <span>Clearly.</span></h2>
+									<div>
+										<hr class="care-hr2">
+									</div>
+								</div>
+								<div class="heading-abs">
+									<p class="boot-vision2">EveCare</p>
+								</div>
+								<div>
+									<p class="heading-text">We believe that everyone deserves to see the world clearly. That’s why we’ve made it our mission to provide patients with the best eye doctors, the most thorough an eye’s health exams, and a wide selection of eyewear delivered with the personal attention you deserve .enim ad et minim veniam.</p>
+								</div>
+								<div class="wow animate__animated animate__rotateInDownLeft">
+									<div class="row mr-0 mt-4">
+										<div class="col-lg-6 col-md-6 col-dm-12 part1">
+											<div>
+												<h5 class="tiked"><i class="fas fa-check-circle"></i>We’re Certified</h5>
+												<div>
+													<p class="text-dark">Certified by Government for excellence in Ophthalmic Technology</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-6 col-md-6 col-dm-12 part2">
+											<div>
+												<h5 class="tiked"><i class="fas fa-check-circle"></i>We’re Certified</h5>
+												<div>
+													<p class="text-dark">Certified by Government for excellence in Ophthalmic Technology</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row mr-0">
+										<div class="col-lg-6 col-md-6 col-dm-12 part3">
+											<div>
+												<h5 class="tiked mt-3"><i class="fas fa-check-circle"></i>We’re Certified</h5>
+												<div>
+													<p class="text-dark">Certified by Government for excellence in Ophthalmic Technology</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-6 col-md-6 col-dm-12 part4">
+											<div>
+												<h5 class="tiked mt-3"><i class="fas fa-check-circle"></i>We’re Certified</h5>
+												<div>
+													<p class="text-dark">Certified by Government for excellence in Ophthalmic Technology</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="eye-care-service">
+					<div>
+						<div class="heading">
+							<div class="text-center">
+								<h2 class="care">Comprehensive Eye Care Services</h2>
+								<hr class="care-hr">
+							</div>
+							<div class="heading-abs">
+								<p class="boot-vision3">What We Offer</p>
+							</div>
+							<div class="text-center">
+								<p class="heading-text3">Our facilities are equipped with state-of-the-art ophthalmic technology to <br> provide the most effective treatment.</p>
+							</div>
+						</div>
+					</div>
+					<div class="mt-5">
+						<div class="row mr-0 shadow-div">
+							<div class="col-lg-3 col-md-3 col-sm-12 wow animate__animated animate__fadeInLeftBig">
+								<div class="service-rel text-center">
+									<div>
+										<p class="exams">The Vision Exams Equipment</p>
+										<p>We are equipped with the latest technologies that help for the eye sight exams</p>
+										<a href="#" class="read-more">Read More</a>
+									</div>
+									<div class="service-abs">
+										<img src="../img/service1.png" class="img-fluid">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-12 wow animate__animated animate__fadeInLeftBig">
+								<div class="service-rel text-center">
+									<div>
+										<p class="exams">The Vision Exams Equipment</p>
+										<p>We are equipped with the latest technologies that help for the eye sight exams</p>
+										<a href="#" class="read-more">Read More</a>
+									</div>
+									<div class="service-abs">
+										<img src="../img/service2.png" class="img-fluid">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-12 wow animate__animated animate__fadeInRightBig">
+								<div class="service-rel text-center">
+									<div>
+										<p class="exams">The Vision Exams Equipment</p>
+										<p>We are equipped with the latest technologies that help for the eye sight exams</p>
+										<a href="#" class="read-more">Read More</a>
+									</div>
+									<div class="service-abs">
+										<img src="../img/service3.png" class="img-fluid">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-12 wow animate__animated animate__fadeInRightBig">
+								<div class="service-rel text-center">
+									<div>
+										<p class="exams">The Vision Exams Equipment</p>
+										<p>We are equipped with the latest technologies that help for the eye sight exams</p>
+										<a href="#" class="read-more">Read More</a>
+									</div>
+									<div class="service-abs">
+										<img src="../img/service4.png" class="img-fluid">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="text-center">
+							<h6 class=" hesitate">.Don’t hesitate, contact us for better help and services.</h6>
+							<a href="#" style="color: var(--color1);">View More Service</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="patient">
+					<div class="heading">
+						<div class="text-center">
+							<h2 class="care3">Service Experts Eye Special</h2>
+							<hr class="care-hr">
+						</div>
+						<div class="heading-abs">
+							<p class="boot-vision4">Our Experts</p>
+						</div>
+						<div class="text-center">
+							<p class="heading-text text-white">At Optrica we value our patients’ overall health and encourage our patients to <br> visit their primary care doctor annually.</p>
+						</div>
+					</div>
+					<div>
+						<div class="row mr-0 patient-review">
+							<div class="col-lg-4 col-md-4 col-sm-12 wow animate__animated animate__fadeInLeftBig">
+								<div class="p-5 bg-white patients">
+									<div class="row mr-0">
+										<div class="col-lg-4 col-md-4 col-sm-12">
+											<img loading="lazy" src="../img/customer-care.png" width="90px" height="90px">
+										</div>
+										<div class="col-lg-8 col-md-8 col-sm-12">
+											<h5 class="p-name">Cameron Steve</h5>
+											<h6 class="p-job">Houston Director</h6>
+										</div>
+									</div>
+									<div class="border-div"></div>
+									<div class="review">
+										<div>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</div>
+										<div>
+											<p class="review-line">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+										</div>
+										<div class="review-abs">
+											<i class="fas fa-quote-right"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-12 wow animate__animated animate__fadeInUpBig">
+								<div class="p-5 bg-white patients">
+									<div class="row mr-0">
+										<div class="col-lg-4 col-md-4 col-sm-12">
+											<img loading="lazy" src="../img/customer-care.png" width="90px" height="90px">
+										</div>
+										<div class="col-lg-8 col-md-8 col-sm-12">
+											<h5 class="p-name">Cameron Steve</h5>
+											<h6 class="p-job">Houston Director</h6>
+										</div>
+									</div>
+									<div class="border-div"></div>
+									<div class="review">
+										<div>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</div>
+										<div>
+											<p class="review-line">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+										</div>
+										<div class="review-abs">
+											<i class="fas fa-quote-right"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-12 wow animate__animated animate__fadeInRightBig">
+								<div class="p-5 bg-white patients">
+									<div class="row mr-0">
+										<div class="col-lg-4 col-md-4 col-sm-12">
+											<img loading="lazy" src="../img/customer-care.png" width="90px" height="90px">
+										</div>
+										<div class="col-lg-8 col-md-8 col-sm-12">
+											<h5 class="p-name">Cameron Steve</h5>
+											<h6 class="p-job">Houston Director</h6>
+										</div>
+									</div>
+									<div class="border-div"></div>
+									<div class="review">
+										<div>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</div>
+										<div>
+											<p class="review-line">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+										</div>
+										<div class="review-abs">
+											<i class="fas fa-quote-right"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-center mt-2">
+					<h6 class="text-secondary">We will always be there for you. <a href="#" style="color: var(--color1);">View More Services</a></h6>
+				</div>
+			</section>
+			<section>
+				<div class="footer">
+					<div class="row mr-0">
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<h3 class="footer-title">Keshubhai Mehta Eye Hospital</h3>
+							<h6 class="footer-desc">Optrica committed to provide the best services in eye care through best improvements of systems, process, technology.</h6>
+							<div class="mt-5">
+								<h6 class="footer-desc mb-3"><span><i class="fas fa-mobile"></i></span> +91-8980 901 901</h6>
+								<a href="mailto:info@rajkotlasik.com" class="footer-link"><span><i class="fas fa-envelope"></i></i></span> info@rajkotlasik.com</a>
+								<h6 class="footer-desc"><span><i class="fas fa-map-marker-alt"></i></i></span> Karansinhji Road , Rajkot - 360005</h6>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-12">
+							<h5>Departments</h5>
+							<div>
+								<hr class="footer-hr">
+							</div>
+							<a href="about.html" class="footer-link"><p>Who Are We</p></a>
+							<a href="about.html" class="footer-link"><p>Our Missions</p></a>
+							<a href="about.html" class="footer-link"><p>Awards</p></a>
+							<a href="about.html" class="footer-link"><p>Experience</p></a>
+							<a href="blog.html" class="footer-link"><p>Success Stories</p></a>
+							<a href="about.html" class="footer-link"><p>Our Doctors</p></a>
+							<a href="about.html" class="footer-link"><p>Before & After</p></a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-12">
+							<h5>Quick Links</h5>
+							<div>
+								<hr class="footer-hr">
+							</div>
+							<a href="index.html" class="footer-link"><p>Home</p></a>
+							<a href="about.html" class="footer-link"><p>About</p></a>
+							<a href="service.html" class="footer-link"><p>Service</p></a>
+							<a href="lasik.html" class="footer-link"><p>Lasik</p></a>
+							<a href="cataract.html" class="footer-link"><p>Cataract</p></a>
+							<a href="Lense.html" class="footer-link"><p>Lense</p></a>
+							<a href="faqs.html" class="footer-link"><p>FAQs</p></a>
+						</div>
+						<div class="col-lg-4 col-md-3 col-sm-12">
+							<h5>Opening Hours</h5>
+							<div>
+								<hr class="footer-hr">
+							</div>
+							<div>
+								<div class="d-inline-block">
+									<span class="footer-link">Monday: </span><br><br>
+									<span class="footer-link">Tuesday: </span><br><br>
+									<span class="footer-link">Wednesday: </span><br><br>
+									<span class="footer-link">Thursay</span><br><br>
+									<span class="footer-link">Friday: </span><br><br>
+									<span class="footer-link">Saturday: </span><br><br>
+								</div>
+								<div class="d-inline-block time">
+									<span class="footer-link">9:00 am To 9:00pm </span><br><br>
+									<span class="footer-link">9:00 am To 9:00pm </span><br><br>
+									<span class="footer-link">9:00 am To 9:00pm </span><br><br>
+									<span class="footer-link">9:00 am To 9:00pm </span><br><br>
+									<span class="footer-link">9:00 am To 9:00pm </span><br><br>
+									<span class="footer-link">9:00 am To 9:00pm </span><br><br>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-input">
+					<form>
+						<div class="form-row mr-0 align-items-center">
+							<div class="col-lg-4 col-md-4 col-sm-12">
+								<div class="form-check mb-2">
+									<label class="form-check-label" for="autoSizingCheck">Subscribe Our Newsletters & Stay Update</label>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-12">
+								<div class="input-group">
+									<input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Ask any question">
+									<div class="input-group-prepend">
+										<div class="input-group-text">Submit</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-12 footer-links">
+								<a href="#" class="text-white"><i class="fab fa-facebook wow animate__animated animate__rotateIn"></i></a>
+								<a href="#" class="text-white"><i class="fab fa-twitter wow animate__animated animate__rotateIn"></i></a>
+								<a href="#" class="text-white"><i class="fab fa-linkedin wow animate__animated animate__rotateIn"></i></a>
+								<a href="#" class="text-white"><i class="fab fa-pinterest-p wow animate__animated animate__rotateIn"></i></a>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="footer-cpyright">
+					<p>Copyright © 2022 <a href="index.html">Keshubhai Mehta Eye Hospital. </a>  All rights reserved by <a href="https://shreejiitech.com/">Shreeji-Itech.</a></p>
+				</div>
+			</section>
+		</div>
+		<script type="text/javascript">
+			$('.owl-carousel').owlCarousel({
+				loop:true,
+				margin:10,
+				responsiveClass:true,
+				responsive:{
+					0:{
+						items:1,
+						nav:true
+					},
+					600:{
+						items:3,
+						nav:false
+					},
+					1000:{
+						items:5,
+						nav:true,
+						loop:false
+					}
+				}
+			})
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+		<script src="asset/js/wow/dist/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+	</body>
+	</html>
